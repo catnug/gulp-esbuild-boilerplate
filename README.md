@@ -37,8 +37,7 @@
     │   └── styles
     │       ├── partials
     │       └── style.scss
-    ├── favicon-32x32.png
-    └── index.html
+    └── favicon-32x32.png
 ```
 
 - This flow assumes that you have one JavaScript entry point (using ESM for sure) and one .scss/.sass file. Otherwise, every bundled .css and .js files are injected to generated .html documents.
@@ -50,10 +49,10 @@ npm i
 npm run gulp:dev
 ```
 
-when you want to use this boilder plate for your development, you should flow the instruction decribed in [gulp-inject](https://github.com/klei/gulp-inject), when injecting `<script>` and `<link>` element in your .pug files.
+when you want to use this boilder plate for your development, you should follow the instruction decribed in [gulp-inject](https://github.com/klei/gulp-inject), when injecting `<script>` and `<link>` element in your .pug files.
 
 ## Output
-As an output of this flow, you get in these, in `public` folder mentioned below :
+As an output of this flow, you get these, in `public` folder, mentioned below :
 
 - a fat bundled (as IIFE), minified, transformed according to `.browserslistrc`, hash-named **.js file**
 - a fat bundled, minified, transformed according to `.browserslistrc`, autoprefixed **.css file**
