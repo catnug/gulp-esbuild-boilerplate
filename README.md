@@ -1,4 +1,4 @@
-<div align="left">
+<div align="center">
 	<img src="./_readmeFiles/gulp.png" style="height:70px;"/>
 	<img src="./_readmeFiles/esbuild.png" style="height:70px;"/>
 </div>
