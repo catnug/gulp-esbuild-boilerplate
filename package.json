@@ -1,0 +1,33 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "type": "module",
+  "scripts": {
+    "gulp:dev": "gulp --gulpfile gulpfile.cjs"
+  },
+  "keywords": [
+    "gulp",
+    "esbuild"
+  ],
+  "author": "catnug",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "browserslist-to-esbuild": "^1.2.0",
+    "esbuild": "^0.18.1",
+    "esbuild-sass-plugin": "^2.9.0",
+    "gulp": "^4.0.2",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.0.1",
+    "gulp-inject": "^5.0.5",
+    "gulp-pug": "^5.0.0",
+    "postcss": "^8.4.24",
+    "postcss-preset-env": "^8.4.2",
+    "rimraf": "^5.0.1"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}
